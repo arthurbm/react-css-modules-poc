@@ -1,0 +1,13 @@
+.myText {
+    color: red;
+}
+
+.myDiv {
+    background-color: blueviolet;
+    height: 300px;
+    width: 300px;
+}
+
+.myDiv h2 {
+    color: chocolate;
+}
