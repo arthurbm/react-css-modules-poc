@@ -1,2 +1,17 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
+
+.container-simple-slick {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-slider {
+    width: 50%;
+    color: blue;
+    background-color: blueviolet;
+}
+
+.slick-arrow {
+    background-color: red;
+}

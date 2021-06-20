@@ -17,16 +17,9 @@ function SimpleSlider() {
 
   return (
     <>
-      <div>
-        <h2> Single Item</h2>
-        <Slider
-          dots
-          infinite
-          arrows
-          speed={500}
-          slidesToScroll={1}
-          slidesToShow={1}
-        >
+      <h2> Single Item</h2>
+      <div className="container-simple-slick" >
+        <Slider {...settings}>
           <div>
             <h3>1</h3>
           </div>
